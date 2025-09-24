@@ -1396,7 +1396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5822"
+		(property "Value" "1N5824"
 			(at 171.45 119.126 90)
 			(effects
 				(font
