@@ -608,7 +608,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5822"
+		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
 			)
@@ -627,7 +627,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5822"
+			(property "Value" "1N5819"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -635,7 +635,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -644,7 +644,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -653,7 +653,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -671,7 +671,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?201AD*"
+			(property "ki_fp_filters" "D*DO?41*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -680,7 +680,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5822_0_1"
+			(symbol "1N5819_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -718,7 +718,7 @@
 					)
 				)
 			)
-			(symbol "1N5822_1_1"
+			(symbol "1N5819_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1910,6 +1910,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Jumper:Jumper_2_NO"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-LED:LED_Red_0603"
 			(pin_numbers
 				(hide yes)
@@ -3043,6 +3229,12 @@
 		(uuid "3603ee8e-7c37-4a49-9f3a-b2ecc521a66a")
 	)
 	(junction
+		(at 36.83 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41d30af2-15da-4bb8-bbe0-256e4cd5d4db")
+	)
+	(junction
 		(at 76.2 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3055,12 +3247,6 @@
 		(uuid "5189cbee-a50c-4f2d-8ff6-b23107eb69f0")
 	)
 	(junction
-		(at 39.37 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d3fc392-af04-4753-b3a7-16788d72d31a")
-	)
-	(junction
 		(at 66.04 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3071,6 +3257,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e73926d-ada0-4004-aa8d-1c70fb98089c")
+	)
+	(junction
+		(at 36.83 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "710912d3-6004-480b-8c88-1ebd653f33b4")
 	)
 	(junction
 		(at 78.74 120.65)
@@ -3103,10 +3295,22 @@
 		(uuid "810eec47-0c62-463f-add7-7f10fd54b203")
 	)
 	(junction
+		(at 74.93 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85560cf1-0d79-4382-868b-8fd7cd978f50")
+	)
+	(junction
 		(at 62.23 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8da287a2-d3b6-4516-9a0b-7a6afc0b9fc5")
+	)
+	(junction
+		(at 31.75 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa384176-c59f-4232-817a-43057fcf0081")
 	)
 	(junction
 		(at 137.16 85.09)
@@ -3174,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 39.37 132.08)
+			(xy 31.75 128.27) (xy 31.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3264,7 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 128.27) (xy 49.53 133.35)
+			(xy 49.53 128.27) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3424,13 +3628,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 49.53 128.27)
+			(xy 36.83 128.27) (xy 49.53 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38b08d0b-1d64-4e49-9ba0-dd0a0c732470")
+		(uuid "35f8f9cf-7260-4a87-88b4-e7fda6316b39")
 	)
 	(wire
 		(pts
@@ -3534,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 125.73) (xy 72.39 125.73)
+			(xy 30.48 125.73) (xy 72.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3564,13 +3768,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 144.78) (xy 49.53 144.78)
+			(xy 31.75 144.78) (xy 36.83 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4da8d5f9-f736-4586-be0f-b70d7b5442a1")
+	)
+	(wire
+		(pts
+			(xy 31.75 128.27) (xy 36.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5236373f-e9f1-434b-b019-a14af312ee74")
 	)
 	(wire
 		(pts
@@ -3634,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 120.65) (xy 78.74 120.65)
+			(xy 30.48 120.65) (xy 78.74 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3674,7 +3888,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 49.53 144.78)
+			(xy 49.53 135.89) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 128.27) (xy 39.37 128.27)
+			(xy 30.48 128.27) (xy 31.75 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3884,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 139.7) (xy 39.37 144.78)
+			(xy 31.75 139.7) (xy 31.75 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4114,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 144.78) (xy 49.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3502fa-cd9b-4d88-8d5d-ec2104f86ac6")
+	)
+	(wire
+		(pts
 			(xy 175.26 85.09) (xy 185.42 85.09)
 		)
 		(stroke
@@ -4141,6 +4365,16 @@
 			(type default)
 		)
 		(uuid "be9de08d-2885-40b2-9ea2-0f7a058144df")
+	)
+	(wire
+		(pts
+			(xy 59.69 119.38) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf14bab4-808a-45ac-9be8-acb87bfbbe6e")
 	)
 	(wire
 		(pts
@@ -4244,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 123.19) (xy 81.28 123.19)
+			(xy 30.48 123.19) (xy 81.28 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4324,6 +4558,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 128.27) (xy 36.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cbb26a-6e3e-49e7-90cd-d3f49c927c6f")
+	)
+	(wire
+		(pts
 			(xy 115.57 92.71) (xy 115.57 105.41)
 		)
 		(stroke
@@ -4351,6 +4595,16 @@
 			(type default)
 		)
 		(uuid "e831b3df-2f7a-4208-ae18-2fc57bdb1a0d")
+	)
+	(wire
+		(pts
+			(xy 59.69 116.84) (xy 59.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e53723-4be6-4df3-b1aa-05c19ec764e3")
 	)
 	(wire
 		(pts
@@ -4421,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "f7d6bc43-f90b-4cd4-bfc0-432515b0ea2c")
+	)
+	(wire
+		(pts
+			(xy 36.83 142.24) (xy 36.83 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b520bb-c07e-44f3-bfd7-609a0927cfdf")
 	)
 	(wire
 		(pts
@@ -4801,6 +5065,76 @@
 			(project "CH340_USB"
 				(path "/ecb782e1-99af-44b1-8717-7026897dcfa2"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Open")
+		(at 59.69 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a03e3d9-d596-480c-8d38-5ba20063c42a")
+		(property "Reference" "JP1"
+			(at 60.96 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 62.23 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NO"
+			(at 62.992 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f49174f9-5796-4add-89fd-0c64f793ddb6")
+		)
+		(pin "2"
+			(uuid "f332307b-fb9e-44bf-ac0d-6d983b006cc5")
+		)
+		(instances
+			(project ""
+				(path "/ecb782e1-99af-44b1-8717-7026897dcfa2"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6003,6 +6337,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a290395-b2bb-43a0-afc3-fbf3aa30b953")
+		(property "Reference" "#PWR08"
+			(at 59.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.436 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efc5779f-9447-4474-bc58-03063cf4a91c")
+		)
+		(instances
+			(project "CH340_USB"
+				(path "/ecb782e1-99af-44b1-8717-7026897dcfa2"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Resistors:1M")
 		(at 67.31 80.01 270)
 		(unit 1)
@@ -6313,24 +6712,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9edb61d4-005d-4c4d-a963-c917f157e67a")
 		(property "Reference" "U2"
-			(at 90.17 138.43 0)
+			(at 91.44 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "CH340C"
-			(at 87.376 140.208 0)
+		(property "Value" "CH340G"
+			(at 91.694 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
@@ -6485,7 +6881,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 31.75 123.19 0)
+		(at 25.4 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6494,7 +6890,7 @@
 		(dnp no)
 		(uuid "a676fc4c-158c-4ea5-9752-1d9ceadf4412")
 		(property "Reference" "J1"
-			(at 31.75 116.078 0)
+			(at 25.4 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6898,7 @@
 			)
 		)
 		(property "Value" "USB_C Conn"
-			(at 31.75 118.11 0)
+			(at 25.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +6906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 123.19 0)
+			(at 25.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +6915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 123.19 0)
+			(at 25.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +6924,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 123.19 0)
+			(at 25.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,6 +7032,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819")
+		(at 36.83 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b91d106b-86ea-472f-95d7-0f245d3abcf1")
+		(property "Reference" "D6"
+			(at 39.878 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 37.084 140.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 32.385 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 36.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 36.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "419dd27f-f81d-4390-88d5-ecf015dbce54")
+		)
+		(pin "2"
+			(uuid "757ae9e8-51a5-4f19-802d-562784f56c3e")
+		)
+		(instances
+			(project "CH340_USB"
+				(path "/ecb782e1-99af-44b1-8717-7026897dcfa2"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 139.7 180)
 		(unit 1)
@@ -6704,7 +7169,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Capacitors:10uF_16V")
-		(at 39.37 135.89 270)
+		(at 31.75 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6712,7 +7177,7 @@
 		(dnp no)
 		(uuid "bcfe5ce8-4a51-4578-be1a-5e1eadffc779")
 		(property "Reference" "C7"
-			(at 33.528 136.652 90)
+			(at 25.908 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +7186,7 @@
 			)
 		)
 		(property "Value" "10uF_16V"
-			(at 29.718 138.43 90)
+			(at 22.098 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7195,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 35.56 136.652 0)
+			(at 27.94 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +7204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 136.398 0)
+			(at 31.75 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +7213,7 @@
 			)
 		)
 		(property "Description" "10uF, 16V Electrolytic Capacitor"
-			(at 39.37 135.89 0)
+			(at 31.75 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,73 +7434,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5822")
-		(at 49.53 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c96f31aa-030c-4693-b655-7d0f62987c6a")
-		(property "Reference" "D3"
-			(at 42.926 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR0520LT1G"
-			(at 42.672 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 45.085 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 49.53 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 49.53 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59e8c988-f490-4fcd-8588-b67430c6226a")
-		)
-		(pin "2"
-			(uuid "903f5a6d-5e8c-4305-a3ce-d6adf9e0adcf")
-		)
-		(instances
-			(project ""
-				(path "/ecb782e1-99af-44b1-8717-7026897dcfa2"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-LED:LED_Red_0603")
 		(at 58.42 86.36 90)
 		(unit 1)
@@ -7114,6 +7512,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819")
+		(at 49.53 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc7cad08-c376-4645-8788-b680cd43d0e1")
+		(property "Reference" "D7"
+			(at 44.45 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 41.91 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 45.085 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea2fadb7-6bc3-457c-b5a6-23fae243dec2")
+		)
+		(pin "2"
+			(uuid "5bac7606-e919-41c0-9e1b-d6551c3d5036")
+		)
+		(instances
+			(project "CH340_USB"
+				(path "/ecb782e1-99af-44b1-8717-7026897dcfa2"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Resistors:1M")
 		(at 135.89 99.06 90)
 		(unit 1)
@@ -7184,7 +7651,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 49.53 135.89 180)
+		(at 49.53 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7192,7 +7659,7 @@
 		(dnp no)
 		(uuid "e1b76d04-6889-412a-bc51-17a81f3fbb4b")
 		(property "Reference" "C6"
-			(at 46.228 136.144 0)
+			(at 46.228 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7667,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 46.482 138.176 0)
+			(at 46.482 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +7675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 135.89 0)
+			(at 49.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 135.89 0)
+			(at 49.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +7693,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 135.89 0)
+			(at 49.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
